@@ -7,6 +7,7 @@ const pathForwardSlash = path.replace(/\\/g, '/');
 
 module.exports = {
     entry : './src/app.js',
+    //entry : './src/playground/hoc.js',
     output: {
         //path: pathForwardSlash,
         path: path,

@@ -7,6 +7,7 @@ import HomePage from './../components/HomePage'
 import Portfolio from './../components/Portfolio';
 import PortfolioItemPage from './../components/PortfolioItemPage';
 import Contact from './../components/Contact';
+import ExpenseDashboard from './../components/ExpenseDashboard';
 
 
 const AppRouter = () =>  (
@@ -14,7 +15,7 @@ const AppRouter = () =>  (
     <div>
     <Header></Header>
     <Switch>
-        <Route path="/" component={HomePage} exact={true} ></Route>
+        <Route path="/" component={ExpenseDashboard} exact={true} ></Route>
         <Route path="/portfolio/" component={Portfolio} exact={true}></Route>
         
         <Route path="/portfolio/:id" component={PortfolioItemPage} ></Route>
